@@ -8,7 +8,8 @@
 !README.md
 !.gitignore
 
-!src
+!src/spectral_multivariate_analysis.py
+!data/*
 
 *.pyc
 .DS_Store
