@@ -1,0 +1,14 @@
+# すべてをignore
+*
+
+# すべてのディレクトリをホワイトリストに追加する
+!*/
+
+# ホワイトリスト方式
+!README.md
+!.gitignore
+
+!src
+
+*.pyc
+.DS_Store
