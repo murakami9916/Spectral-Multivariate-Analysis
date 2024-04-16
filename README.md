@@ -17,17 +17,23 @@ $M$個の計測スペクトルデータ群$`\mathcal{Y}=\{\boldsymbol{y}_m\}_{m=
 
 ### 前処理の設計
 スペクトルデータの多変量解析は，データ前処理方法が重要となる．
-このプログラムはスペクトルデータに特化して，いくつかの前処理フローを提供している：このとき，前処理したデータ$`\boldsymbol{s}'`$, $`\boldsymbol{y}'_m`$を入力として，$`\boldsymbol{d}_m=D( \boldsymbol{s}', \boldsymbol{y}'_m )`$が多変量解析の入力行列となる．
-
-$$\boldsymbol{s}' = f(\boldsymbol{s}), \ \ \boldsymbol{y}'_m = f(h\boldsymbol{y}_m)$$
+このプログラムはスペクトルデータに特化して，いくつかの前処理フローを提供している：このとき，前処理したデータ$`\boldsymbol{s}'=f(\boldsymbol{s})`$, $`\boldsymbol{y}'_m=f(h\boldsymbol{y}_m)`$を入力として，$`\boldsymbol{d}_m=D( \boldsymbol{s}', \boldsymbol{y}'_m )`$が多変量解析の入力行列となる．
 
 - `is_log` 対数スケールへの変換 &nbsp; $`f(x)=\ln{x}`$　（※ 線形スケールの場合は，$`f(x)=x`$）
 - `is_sign` 差分スペクトルの符号を反映 &nbsp; $`\boldsymbol{d}_m=\mbox{sign}(\boldsymbol{s} - \boldsymbol{y}_m) D( \boldsymbol{s}, \boldsymbol{y}_m )`$
 - `is_scale` 強度スケールの補正 &nbsp; $`h\boldsymbol{y}_m`$ （※ 補正なしの場合は，$`h=1`$）
 
 ## 使い方
-### インストール方法
+
+### 必要なライブラリ
+- numpy==1.4.2
+- pandas==2.2.2
+- scipy==1.13.0
+- matplotlib==3.8.4
+- scikit-learn==1.4.2
+
 ### テスト方法
+
 ### デプロイ方法
 
 ## 解析結果
