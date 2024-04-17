@@ -8,7 +8,9 @@ $M$個の計測スペクトルデータ群$`\mathcal{Y}=\{\boldsymbol{y}_m\}_{m=
 
 ## こだわりポイント
 
-本プログラムは，基準とするスペクトルからの距離（距離スペクトル）$`\boldsymbol{d}_m=D( \boldsymbol{s}, \boldsymbol{y}_m )`$を入力とすることがポイントである．
+本プログラムは，基準とするスペクトル$`\boldsymbol{s}`$からの距離（距離スペクトル）$`\boldsymbol{d}_m=D( \boldsymbol{s}, \boldsymbol{y}_m )`$を入力とすることがポイントである．
+
+※ スペクトルデータをそのまま入力することもできる．
 
 ### 距離関数の設計
 距離関数$`D(\boldsymbol{s}, \boldsymbol{y}_m)`$として，以下の関数を提供する：
