@@ -54,4 +54,5 @@ $M$個の計測スペクトルデータ群$`\mathcal{Y}=\{\boldsymbol{y}_m\}_{m=
 
 ## 著者
 MURAKAMI Ryo
+
 E-mail: MURAKAMI.Ryo@nims.go.jp
