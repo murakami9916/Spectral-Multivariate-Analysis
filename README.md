@@ -44,3 +44,6 @@ $M$個の計測スペクトルデータ群$`\mathcal{Y}=\{\boldsymbol{y}_m\}_{m=
 
 ![image](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/16220edd-0587-4fca-b024-8d28f3cfd772)
 
+## 著者
+MURAKAMI Ryo
+E-mail: MURAKAMI.Ryo@nims.go.jp
