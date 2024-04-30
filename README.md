@@ -48,9 +48,9 @@ $M$個の計測スペクトルデータ群$`\mathcal{Y}=\{\boldsymbol{y}_m\}_{m=
 
 ## 解析結果
 
-![image](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/f8b0488b-9a4a-4f34-9d1e-fa4232d49c1e)
+![basis](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/4c285323-e849-4e10-a5e8-e93b25dd55b8)
 
-![image](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/16220edd-0587-4fca-b024-8d28f3cfd772)
+![result](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/e86b5101-ad3f-4dc4-8316-72f067a504e9)
 
 ## 著者
 MURAKAMI Ryo
