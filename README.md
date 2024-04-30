@@ -42,13 +42,19 @@ $M$個の計測スペクトルデータ群$`\mathcal{Y}=\{\boldsymbol{y}_m\}_{m=
 - matplotlib==3.8.4
 - scikit-learn==1.4.2
 
-### テスト方法
+## デモ用のデータ
 
-### デプロイ方法
+Si基板上に厚さ$`T`$[nm]の酸化インジウムを成膜した試料のXPSサーベイシミュレーションデータ
+
+![input_data](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/cceb39aa-4c12-4f72-864f-57340ee3fe27)
 
 ## 解析結果
 
+### 獲得された基底関数
+
 ![basis](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/4c285323-e849-4e10-a5e8-e93b25dd55b8)
+
+### 係数と物理パラメータの関係
 
 ![result](https://github.com/murakami9916/Spectral-Multivariate-Analysis/assets/34080190/e86b5101-ad3f-4dc4-8316-72f067a504e9)
 
